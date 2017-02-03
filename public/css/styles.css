@@ -203,8 +203,8 @@ a:-webkit-any-link {
   background-size: cover;
   min-height: 700px;
   color: #fff;
-  padding-top: 700px;
 }
+
 .promo .title {
   font-size: 98px;
   color: #212121;
@@ -311,6 +311,11 @@ a:-webkit-any-link {
 .features a:hover {
   color: #042a36;
 }
+
+.features p {
+  margin-bottom: 30px;
+}
+
 .features .feature-list li {
   margin-bottom: 10px;
   color: #212121;
@@ -499,6 +504,7 @@ a:-webkit-any-link {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
   .header .main-nav button {
     margin-right: 0;
   }
@@ -512,6 +518,14 @@ a:-webkit-any-link {
     display: block;
     margin-bottom: 30px;
   }
+
+  .promo {
+    min-height: 400px !important;
+    background-position:top center;
+    background-size:200%;
+    background-repeat: no-repeat;
+  }
+
   .promo .title {
     font-size: 66px;
   }
