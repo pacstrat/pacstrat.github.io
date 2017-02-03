@@ -3,8 +3,8 @@
 title:               PACSTRAT
 email:               skam@pacstrat.org
 tagline:             A Global Mission Support Company
-url:                 "http://www.pacstrat.org" # insert your site's URL
-baseurl:             "http://www.pacstrat.org"
+url:                 "" # insert your site's URL
+baseurl:             ""
 
 # About/contact
 author: # you can edit these to be your personal details
